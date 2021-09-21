@@ -1,73 +1,33 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-unmapped -mpssession virtuoso72665 -mpshost linap-me5159-03.doe.carleton.ca 
+\o Arguments:		-mpssession virtuoso127985 -mpshost linap-me5159-03.doe.carleton.ca 
 \o Working Directory:	linap-me5159-03.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
 \o 64-bit offsets
 \o Qt version: 		4.7.2
-\o changeWorkingDir("/home/craigmcmahon/elec4609/cuSOI") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/craigmcmahon/elec4609/cuSOI/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
-\o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
-\o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(990 233 602 491))
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellListBox->value = "inverter_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "inverter_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrResizeWindow(cdsLibManager list(1116 137 602 491))
-\a cdsLibManager->cellLineEdit->value = "inverter_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 75 81 2 "")
-\a cdsLibManager->cellLineEdit->value = ""
-\a lmgrLogShowPopup("mainListPopup0" 26 6 2 "CuSOI")
+\o changeWorkingDir("/home/craigmcmahon/elec4609/cuSOI") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "CuSOI"
 \a _lmgrCloseIconify("cdsLibManager" 1)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
 \a cdsLibManager->libLineEdit->value = "CuSOI"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "CuSOI"
 \a cdsLibManager->libLineEdit->value = "CuSOI"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "CuSOI"
 \a cdsLibManager->libLineEdit->value = "CuSOI"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "flipflop_tb"
 \a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetCurrentWindow(cdsLibManager)
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \o MPS service: shutdown
