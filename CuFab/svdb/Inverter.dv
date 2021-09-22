@@ -1,0 +1,23 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/Inverter.dv
+dv_start notcompared                              
+dv_global
+dv_discrep 1 {Warning: Unknown statement}
+dv_discrep_line {Can't understand statement at line 1 in file "/home/robertchitiu/4609Design/CuFab/inverter/data.dm"}
+dv_discrep_line {}
+dv_discrep 2 {Warning: Unknown statement}
+dv_discrep_line {Can't understand statement at line 2 in file "/home/robertchitiu/4609Design/CuFab/inverter/data.dm"}
+dv_discrep_line {}
+dv_discrep 3 {Warning: Unknown statement}
+dv_discrep_line {Can't understand statement at line 3 in file "/home/robertchitiu/4609Design/CuFab/inverter/data.dm"}
+dv_discrep_line {}
+dv_discrep 4 {Warning: Unknown statement}
+dv_discrep_line {Can't understand statement at line 4 in file "/home/robertchitiu/4609Design/CuFab/inverter/data.dm"}
+dv_discrep_line {}
+dv_discrep 5 {Warning: Unknown statement}
+dv_discrep_line {Can't understand statement at line 5 in file "/home/robertchitiu/4609Design/CuFab/inverter/data.dm"}
+dv_discrep_line {}
+dv_discrep 6 {Error: Subckt not found}
+dv_discrep_line {Subcircuit "Inverter" not found}
+dv_discrep_line {}
+dv_end

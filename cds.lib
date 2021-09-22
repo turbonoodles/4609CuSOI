@@ -1,3 +1,6 @@
+# File Created by Craig McMahon at Wed Sep 22 11:54:52 2021
+# assisted by CdsLibEditor
 INCLUDE tech.lib
 DEFINE CuSOI /home/craigmcmahon/elec4609/cuSOI/CuSOI
 DEFINE avTech /CMC/tools/cadence/ASSURA04.14.119-616_lnx86/tools/assura/etc/avtech/avTech
+DEFINE CuFab CuFab
