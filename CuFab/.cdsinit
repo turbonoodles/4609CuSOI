@@ -1,0 +1,72 @@
+
+envSetVal( "graphic" "drfPath" 'string
+            strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/display.drf"))
+
+
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/common_bindkeys.il"))
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/CCSHierLayerOps.il"))
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/polyGeneration.il"))
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/artCommands.il"))
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/CuFABPulldownMenu.il"))
+loadi( strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/ExportFunction.il"))
+
+envSetVal("layout" "extractAllowOffPinHierConnections" 'boolean t)
+envSetVal("layout" "extractVerifyHierConnectionsToUnassignedShapes" 'boolean t)
+
+if( getShellEnvVar("MGC_HOME") then
+  loadi( strcat( getShellEnvVar("MGC_HOME") "/shared/pkgs/icv/tools/queryskl/calibre.OA.skl"))
+) ;if
+procedure( prependOPDKInstallPath( dir) 
+           strcat( getShellEnvVar("KIT_HOME") "/CarletonTech/" dir))
+(envLoadVals
+?envFile ( prependOPDKInstallPath "cdsenv")
+?tool "layout")
+
+printf( strcat( 
+"---------------------------------------------------------------------------\n"
+"Welcome to the Carleton Univeristy SOI Process Design Kit (CuSOiPDk)\n"
+" \n"
+"The CuSOiPDk is an open source kit, developed for using the Carleton\n"
+"Fabrication Facility SOI process. The CuSOiPDk was developed using the\n"
+"Organic Process Design Kit, based on the framework of NCSU FreePDK\n"
+"This kit has been developed at Carleton with heavy reliacnce on work\n"
+"done by the National Science Foundation (NSF), with acknowledgement\n"
+"to all the developers of NCSU Open Source Design Kits, and the developers\n"
+"who designed the OPDK\n"
+" \n"
+"The CuSOiPDk was brought to you by the following people:\n"
+"Professor Gary Tarr\n"
+"Professor Rony Amaya\n"
+"Daniel Gale\n"
+"Joseph Botros\n"
+"\n"
+
+"The following information is related to the OPDK, which was used\n"
+"heavily for the development of this kit:\n\n"
+"This version of OPDK was created by Wei Zhang, Mingjing Ha and Chris Kim\n"
+"of the University of Minnesota, Twin Cities.\n"
+" \n"
+"Contributions and modifications to this kit are welcomed and encouraged.\n"
+" \n"
+"Copyright 2010 the University of Minnesota, Twin Cities\n"
+"(Framework Copyright 2008 North Carolina State University\n"
+"and Oklahoma State University)\n"
+" \n"
+"Licensed under the Apache License, Version 2.0 (the \"License\");\n"
+"you may not use this file except in compliance with the License.\n"
+"You may obtain a copy of the License at\n"
+" \n"
+"    http://www.apache.org/licenses/LICENSE-2.0\n"
+" \n"
+"Unless required by applicable law or agreed to in writing, software\n"
+"distributed under the License is distributed on an \"AS IS\" BASIS,\n"
+"WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n"
+"See the License for the specific language governing permissions and\n"
+"limitations under the License.\n"
+"---------------------------------------------------------------------------\n"
+"\n"
+"Done loading CuSOiPDk customizations. Enjoy your design work!\n"
+"\n"
+"---------------------------------------------------------------------------\n"
+
+))
