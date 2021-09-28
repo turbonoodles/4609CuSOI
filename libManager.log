@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-unmapped -mpssession virtuoso14889 -mpshost linap-me5159-03.doe.carleton.ca 
+\o Arguments:		-unmapped -mpssession virtuoso28432 -mpshost linap-me5159-03.doe.carleton.ca 
 \o Working Directory:	linap-me5159-03.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
 \o 64-bit offsets
 \o Qt version: 		4.7.2
@@ -12,209 +12,70 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(1131 194 602 491))
-\a cdsLibManager->libListBox->value = "CuSOI"
+\a nrResizeWindow(cdsLibManager list(1074 416 602 491))
 \a cdsLibManager->libListBox->value = "CuFab"
 \a cdsLibManager->libListBox->value = "CuSOI"
 \a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellLineEdit->value = "inverter"
-\a cdsLibManager->libListBox->value = "CuSOiPDk_DEVICES"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a lmgrLogShowPopup("mainListPopup1" 117 67 2 "inverter")
-\a cdsLibManager->cellLineEdit->value = "inverter"
-\a lmgrLogShowPopup("mainListPopup2" 50 42 2 "")
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "toplevel"
-\a nrListItemAction(cdsLibManager->cellListBox 6 0)
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "toplevel"
-\a cdsLibManager->cellLineEdit->value = "toplevel"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->cellLineEdit->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->cellLineEdit->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = "layouts"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nmos"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "pmos"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "svdb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellLineEdit->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "toplevel"
-\a lmgrLogShowPopup("mainListPopup1" 30 100 2 "toplevel")
-\a cdsLibManager->cellLineEdit->value = "toplevel"
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "toplevel"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "toplevel"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(1261 326 343 180))
-\a basicRenameForm->basicRenameToEdit->value = "TOP"
-\a nrDialogAccept(basicRenameForm)
-\a basicRenameForm->OK->value = t
-\o Renaming Cell "toplevel" to "TOP" in library "CuSOI".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a basicRenameForm->basicRenameToEdit->value = "TOP"
-\a nrResizeWindow(workingDialogForm list(1292 343 281 131))
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "toplevel_tb"
-\a lmgrLogShowPopup("mainListPopup1" 51 115 2 "toplevel_tb")
-\a cdsLibManager->cellLineEdit->value = "toplevel_tb"
-\a cdsLibManager->editRenameButton->value = t
-\a basicRenameForm->basicRenameFromEdit->value = "toplevel_tb"
-\a nrSetWindowVisibility(basicRenameForm "show")
-\a basicRenameForm->basicRenameToEdit->value = "toplevel_tb"
-\a nrSetCurrentWindow(basicRenameForm)
-\a nrResizeWindow(basicRenameForm list(1261 326 343 180))
-\a basicRenameForm->basicRenameToEdit->value = "TOP_tb"
-\a basicRenameForm->OK->value = t
-\o Renaming Cell "toplevel_tb" to "TOP_tb" in library "CuSOI".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(1292 343 281 131))
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellLineEdit->value = "TOP_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->editLibraryPathButton->value = t
-\o Starting the cdsLibEditor...
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a nrListItemAction(cdsLibManager->cellListBox 3 0)
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->cellLineEdit->value = "counter_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \a nrListItemAction(cdsLibManager->cellListBox 5 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "flipflop_tb"
 \a cdsLibManager->cellLineEdit->value = "flipflop_tb"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "inverter_tb"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 7 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellLineEdit->value = "inverter_tb"
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 0 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(1074 416 602 491))
+\a nrResizeWindow(cdsLibManager list(1107 200 602 491))
 \a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "CuSOI"
 \a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "flipflop_tb"
+\a cdsLibManager->cellLineEdit->value = "flipflop_tb"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "counter"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "counter"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "counter_tb"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "counter_tb"
+\a cdsLibManager->viewListBox->value = "CTR_TRAN"
+\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
