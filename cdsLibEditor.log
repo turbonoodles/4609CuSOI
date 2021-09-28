@@ -1,0 +1,14 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.6 - CAT33 11/05/2015 10:35 (sjfql586) $
+\o Sub version:		sub-version  s019 
+\o Arguments:		-display :39.0 -mpssession virtuoso14889 -mpshost linap-me5159-03.doe.carleton.ca -namespace CDBA -cdslib /home/craigmcmahon/elec4609/cuSOI/cds.lib 
+\o Working Directory:	linap-me5159-03.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.7.2
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(-1 -29 500 400))
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)
