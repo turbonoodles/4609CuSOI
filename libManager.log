@@ -1,7 +1,7 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-unmapped -mpssession virtuoso17631 -mpshost linap-me5159-03.doe.carleton.ca 
-\o Working Directory:	linap-me5159-03.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
+\o Arguments:		-unmapped -mpssession virtuoso26145 -mpshost linap-me5159-01.doe.carleton.ca 
+\o Working Directory:	linap-me5159-01.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
 \o 64-bit offsets
 \o Qt version: 		4.7.2
 \o changeWorkingDir("/home/craigmcmahon/elec4609/cuSOI") unnecessary.
@@ -12,764 +12,83 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(1062 140 749 593))
+\a nrResizeWindow(cdsLibManager list(0 24 1918 1122))
 \a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "inverter_testbench"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "Double_T_Gate"
+\a cdsLibManager->cellLineEdit->value = "Double_T_Gate"
+\a cdsLibManager->viewListBox->value = "symbol"
+\a cdsLibManager->viewLineEdit->value = "symbol"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "nand_test"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->cellLineEdit->value = "nand_test"
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "spectre_state1"
-\a cdsLibManager->viewLineEdit->value = "spectre_state1"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "inverter_testbench"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Nand"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "flipflop"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = "flipflop"
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->cellListBox->value = "inverter_testbench"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(276 260 749 593))
-\a cdsLibManager->cellListBox->value = "inverter_testbench"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "inverter_testbench"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 48 24 2 "2phase_clock")
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrResizeWindow(cdsLibManager list(948 263 749 593))
-\a nrResizeWindow(cdsLibManager list(1005 164 749 593))
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "2phaseclock_test"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellLineEdit->value = "nand"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 45 66 2 "Nand")
-\a cdsLibManager->cellLineEdit->value = "Nand"
-\a nrResizeWindow(cdsLibManager list(1062 146 749 593))
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Nand"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 66 66 2 "Nand")
-\a cdsLibManager->cellLineEdit->value = "Nand"
-\a cdsLibManager->editDeleteButton->value = t
-\a deleteForm->deleteBothRadioButton->value = t
-\a deleteForm->deleteFilterEdit->value = "*"
-\a deleteForm->notDeleteFilterEdit->value = "*"
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(1123 230 627 425))
-\a deleteForm->qt_vbar->value = "6"
-\a deleteForm->qt_vbar->value = "11"
-\a deleteForm->qt_vbar->value = "17"
-\a deleteForm->qt_vbar->value = "22"
-\a deleteForm->qt_vbar->value = "28"
-\a deleteForm->qt_vbar->value = "34"
-\a deleteForm->qt_vbar->value = "39"
-\a deleteForm->qt_vbar->value = "45"
-\a deleteForm->qt_vbar->value = "34"
-\a deleteForm->qt_vbar->value = "22"
-\a deleteForm->qt_vbar->value = "11"
-\a deleteForm->qt_vbar->value = "6"
-\a deleteForm->qt_vbar->value = "0"
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(1255 323 362 231))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "Nand" from library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cell 'CuFab/Nand'.
-\o Deletion of 1 cell done.
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(1 29 281 131))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "svdb"
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHj78658"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHl78658"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHl78658"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = "2phaseclock_test"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "inverter_testbench"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "nmos"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "pmos"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "svdb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->viewListBox->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = "symbol_xform"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 81 177 2 "zpcellSCRATCHg78658")
-\a cdsLibManager->cellLineEdit->value = "zpcellSCRATCHg78658"
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(1123 230 627 425))
-\a deleteForm->qt_vbar->value = "11"
-\a deleteForm->qt_vbar->value = "21"
-\a deleteForm->qt_vbar->value = "26"
-\a deleteForm->qt_vbar->value = "32"
-\a deleteForm->qt_vbar->value = "37"
-\a deleteForm->qt_vbar->value = "47"
-\a deleteForm->qt_vbar->value = "58"
-\a deleteForm->qt_vbar->value = "63"
-\a deleteForm->qt_vbar->value = "70"
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->qt_vbar->value = "0"
-\a deleteForm->qt_vbar->value = "52"
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->qt_vbar->value = "0"
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 3 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(1255 296 362 312))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting 3 cells from library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\o Deleting cell "zpcellSCRATCHg78658".
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cell 'CuFab/zpcellSCRATCHg78658'.
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleting cell "zpcellSCRATCHj78658".
-\o Deleted cell 'CuFab/zpcellSCRATCHj78658'.
-\o Deleting cell "zpcellSCRATCHl78658".
-\o Deleted cell 'CuFab/zpcellSCRATCHl78658'.
-\o Deletion of 3 cells done.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(1 29 281 131))
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 42 54 2 "Inverter")
-\a cdsLibManager->cellLineEdit->value = "Inverter"
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(1123 230 627 425))
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 3 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(1254 300 362 312))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting 3 cells from library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\o Deleting cell "Inverter".
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cell 'CuFab/Inverter'.
-\o Deleting cell "inverter".
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cell 'CuFab/inverter'.
-\o Deleting cell "inverter_testbench".
-\o Deleted cell 'CuFab/inverter_testbench'.
-\o Deletion of 3 cells done.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(1 29 281 131))
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phase_clk"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 33 9 2 "2phase_clk")
-\a cdsLibManager->cellLineEdit->value = "2phase_clk"
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(1123 230 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(1254 300 362 312))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting cell "2phase_clk" from library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\o Deleted cell 'CuFab/2phase_clk'.
-\o Deletion of 1 cell done.
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(1297 358 281 131))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellLineEdit->value = "2phaseclock_test"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "noc_trans_fine"
-\a cdsLibManager->viewLineEdit->value = "noc_trans_fine"
-\a lmgrLogShowPopup("mainListPopup2" 67 26 2 "noc_trans_fine")
-\a cdsLibManager->editDeleteButton->value = t
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(1123 230 627 425))
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(1255 296 362 312))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting view "noc_trans_fine" from cell "2phaseclock_test" in library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cellview 'CuFab/2phaseclock_test/noc_trans_fine'.
-\o Deletion of 1 view done.
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = "noc_trans_auto"
-\a cdsLibManager->viewListBox->value = nil
-\a nrResizeWindow(workingDialogForm list(1 29 281 131))
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellLineEdit->value = "2phaseclock_test"
-\a cdsLibManager->viewListBox->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->viewListBox->value = "noc_trans_auto"
-\a cdsLibManager->viewLineEdit->value = "noc_trans_auto"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->cellLineEdit->value = "nand_test"
 \a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellLineEdit->value = "TOP_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "flipflop"
+\a cdsLibManager->cellLineEdit->value = "flipflop"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Double_T_Gate"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a cdsLibManager->viewListBox->value = "top_tran"
-\a cdsLibManager->viewLineEdit->value = "top_tran"
+\a cdsLibManager->cellLineEdit->value = "Double_T_Gate"
+\a cdsLibManager->viewListBox->value = "layout"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 0 0)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = "counter_tb"
-\a cdsLibManager->viewListBox->value = "CTR_TRAN"
-\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a nrResizeWindow(cdsLibManager list(-54 24 1918 1122))
+\a nrResizeWindow(cdsLibManager list(-54 24 1920 1123))
+\a nrResizeWindow(cdsLibManager list(-54 24 1918 1122))
+\a nrResizeWindow(cdsLibManager list(-144 24 1918 1122))
+\a nrResizeWindow(cdsLibManager list(-141 24 1918 1122))
+\a nrResizeWindow(cdsLibManager list(-141 24 1920 1123))
+\a nrResizeWindow(cdsLibManager list(-141 24 1918 1122))
+\a nrResizeWindow(cdsLibManager list(-141 24 895 495))
+\a nrResizeWindow(cdsLibManager list(-141 24 781 561))
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->cellListBox->value = "flipflop"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->viewListBox->value = "CTR_TRAN"
-\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
-\a cdsLibManager->cellListBox->value = "counter"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = "counter"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->viewListBox->value = "CTR_TRAN"
-\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
 \a cdsLibManager->cellListBox->value = "flipflop"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = nil
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellLineEdit->value = "TOP_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->viewListBox->value = "CTR_TRAN"
-\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
-\a nrListItemAction(cdsLibManager->cellListBox 3 0)
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a cdsLibManager->cellListBox->value = "flipflop"
-\a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellLineEdit->value = "TOP_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "counter"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->viewListBox->value = "CTR_TRAN"
-\a cdsLibManager->viewLineEdit->value = "CTR_TRAN"
-\a cdsLibManager->cellListBox->value = "flipflop"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->cellListBox->value = "inverter"
-\a cdsLibManager->cellListBox->value = "inverter_tb"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellLineEdit->value = "TOP_tb"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(756 137 749 593))
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "nand"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->cellListBox->value = "nmos"
 \a cdsLibManager->viewListBox->value = "layout"
 \a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 6 0)
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "nand"
+\o MPS request: edit design
+\a cdsLibManager->cellLineEdit->value = "flipflop"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->cellListBox->value = "nand_test"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "2phaseclock_test"
-\a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellListBox->value = "TOP_tb"
-\a cdsLibManager->cellListBox->value = "counter_tb"
-\a cdsLibManager->cellListBox->value = "flipflop_tb"
-\a cdsLibManager->cellListBox->value = "inverter_tb"
-\a cdsLibManager->cellLineEdit->value = "inverter_tb"
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = "CuFab"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
