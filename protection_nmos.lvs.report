@@ -11,12 +11,12 @@
 
 
 
-REPORT FILE NAME:         counter.lvs.report
-LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/counter.sp ('counter')
-SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/counter.src.net ('counter')
+REPORT FILE NAME:         protection_nmos.lvs.report
+LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/protection_nmos.sp ('protection_nmos')
+SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/protection_nmos.src.net ('protection_nmos')
 RULE FILE:                /home/craigmcmahon/elec4609/cuSOI/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for Carleton_SOI_PDK
-CREATION TIME:            Mon Oct 11 19:21:00 2021
+CREATION TIME:            Mon Oct 11 23:03:36 2021
 CURRENT DIRECTORY:        /home/craigmcmahon/elec4609/cuSOI
 USER NAME:                craigmcmahon
 CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
@@ -42,7 +42,7 @@ CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  CORRECT        counter                       counter
+  CORRECT        protection_nmos               protection_nmos
 
 
 
@@ -148,40 +148,23 @@ o LVS Setup:
 
 
 
-LAYOUT CELL NAME:         counter
-SOURCE CELL NAME:         counter
+LAYOUT CELL NAME:         protection_nmos
+SOURCE CELL NAME:         protection_nmos
 
 --------------------------------------------------------------------------------------------------------------
 
-INITIAL NUMBERS OF OBJECTS
---------------------------
+NUMBERS OF OBJECTS
+------------------
 
                 Layout    Source         Component Type
                 ------    ------         --------------
- Ports:              8         8
+ Ports:              2         2
 
- Nets:              29        29
+ Nets:               2         2
 
- Instances:         31        31         MN (3 pins)
-                    41        41         MP (3 pins)
+ Instances:          1         1         MN (3 pins)
                 ------    ------
- Total Inst:        72        72
-
-
-NUMBERS OF OBJECTS AFTER TRANSFORMATION
----------------------------------------
-
-                Layout    Source         Component Type
-                ------    ------         --------------
- Ports:              8         8
-
- Nets:              29        29
-
- Instances:         19        19         MN (3 pins)
-                    11        11         MP (3 pins)
-                    12        12         _invv (4 pins)
-                ------    ------
- Total Inst:        42        42
+ Total Inst:         1         1
 
 
 
@@ -193,28 +176,18 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
                   Matched    Matched    Unmatched    Unmatched    Component
                    Layout     Source       Layout       Source    Type
                   -------    -------    ---------    ---------    ---------
-   Ports:               8          8            0            0
+   Ports:               2          2            0            0
 
-   Nets:               29         29            0            0
+   Nets:                2          2            0            0
 
-   Instances:          19         19            0            0    MN(NM)
-                       11         11            0            0    MP(PM)
-                       12         12            0            0    _invv
+   Instances:           1          1            0            0    MN(NM)
                   -------    -------    ---------    ---------
-   Total Inst:         42         42            0            0
-
-
-o Statistics:
-
-   28 layout mos transistors were reduced to 10.
-     18 mos transistors were deleted by parallel reduction.
-   28 source mos transistors were reduced to 10.
-     18 mos transistors were deleted by parallel reduction.
+   Total Inst:          1          1            0            0
 
 
 o Initial Correspondence Points:
 
-   Ports:        VDD VSS RESET PHI_1 PHI_2 Q2 Q1 Q0
+   Ports:        VSS IN
 
 
 **************************************************************************************************************
