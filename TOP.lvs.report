@@ -22,7 +22,7 @@ LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/TOP.sp ('TOP')
 SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/TOP.src.net ('TOP')
 RULE FILE:                /home/craigmcmahon/elec4609/cuSOI/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for Carleton_SOI_PDK
-CREATION TIME:            Tue Oct 12 20:23:27 2021
+CREATION TIME:            Wed Oct 13 09:26:45 2021
 CURRENT DIRECTORY:        /home/craigmcmahon/elec4609/cuSOI
 USER NAME:                craigmcmahon
 CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
@@ -33,15 +33,13 @@ CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of instances.
-  Error:    Layout names missing in source.
 
 
 **************************************************************************************************************
@@ -50,7 +48,7 @@ CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
 
   Result         Layout                        Source
   -----------    -----------                   --------------
-  INCORRECT      TOP                           TOP
+  CORRECT        TOP                           TOP
 
 
 
@@ -148,15 +146,13 @@ o LVS Setup:
 
 
 
-                  #   #         #####################  
-                   # #          #                   #  
-                    #           #     INCORRECT     #  
-                   # #          #                   #  
-                  #   #         #####################  
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
 
 
-  Error:    Different numbers of instances (see below).
-  Error:    Layout names missing in source.
 
 LAYOUT CELL NAME:         TOP
 SOURCE CELL NAME:         TOP
@@ -172,10 +168,10 @@ INITIAL NUMBERS OF OBJECTS
 
  Nets:              39        39
 
- Instances:         42        44    *    MN (3 pins)
+ Instances:         44        44         MN (3 pins)
                     52        52         MP (3 pins)
                 ------    ------
- Total Inst:        94        96
+ Total Inst:        96        96
 
 
 NUMBERS OF OBJECTS AFTER TRANSFORMATION
@@ -187,62 +183,13 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
  Nets:              35        35
 
- Instances:         19        21    *    MN (3 pins)
+ Instances:         21        21         MN (3 pins)
                     11        11         MP (3 pins)
                     15        15         _invv (4 pins)
                      2         2         _invx2v (4 pins)
                      2         2         _nand2v (5 pins)
                 ------    ------
- Total Inst:        49        51
-
-
-       * = Number of objects in layout different from number in source.
-
-
-
-**************************************************************************************************************
-                                 INCORRECT OBJECTS
-**************************************************************************************************************
-
-
-LEGEND:
--------
-
-  ne  = Naming Error (same layout name found in source
-        circuit, but object was matched otherwise).
-
-
-**************************************************************************************************************
-                                 INCORRECT INSTANCES
-
-DISC#  LAYOUT NAME                                               SOURCE NAME
-**************************************************************************************************************
-
-  1    ** missing instance **                                    XI3/MM0  MN(NM)
-
---------------------------------------------------------------------------------------------------------------
-
-  2    ** missing instance **                                    XI2/MM0  MN(NM)
-
-
-
-**************************************************************************************************************
-                                      PORT NAME ERRORS
-
-DISC#   LAYOUT NAME                                              SOURCE NAME
-**************************************************************************************************************
-  3     PHI                                                      ** missing name **
-
-
-
-
-**************************************************************************************************************
-                                      NET NAME ERRORS
-
-DISC#   LAYOUT NAME                                              SOURCE NAME
-**************************************************************************************************************
-  4     PHI                                                      ** missing name **
-
+ Total Inst:        51        51
 
 
 
@@ -258,13 +205,13 @@ DISC#   LAYOUT NAME                                              SOURCE NAME
 
    Nets:               35         35            0            0
 
-   Instances:          19         19            0            2    MN(NM)
+   Instances:          21         21            0            0    MN(NM)
                        11         11            0            0    MP(PM)
                        15         15            0            0    _invv
                         2          2            0            0    _invx2v
                         2          2            0            0    _nand2v
                   -------    -------    ---------    ---------
-   Total Inst:         49         49            0            2
+   Total Inst:         51         51            0            0
 
 
 o Statistics:
@@ -277,7 +224,7 @@ o Statistics:
 
 o Initial Correspondence Points:
 
-   Ports:        VDD VSS RESET Q2 Q1 Q0
+   Ports:        VDD VSS RESET CLK Q2 Q1 Q0
 
 
 **************************************************************************************************************
