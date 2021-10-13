@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/2inv_rst.sp ('2inv_r
 SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/2inv_rst.src.net ('2inv_rst')
 RULE FILE:                /home/craigmcmahon/elec4609/cuSOI/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for Carleton_SOI_PDK
-CREATION TIME:            Sun Oct  3 19:49:07 2021
+CREATION TIME:            Tue Oct 12 14:56:25 2021
 CURRENT DIRECTORY:        /home/craigmcmahon/elec4609/cuSOI
 USER NAME:                craigmcmahon
 CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
@@ -160,7 +160,7 @@ INITIAL NUMBERS OF OBJECTS
                 ------    ------         --------------
  Ports:              6         6
 
- Nets:               7         6    *
+ Nets:               8         6    *
 
  Instances:          3         3         MN (3 pins)
                      2         2         MP (3 pins)
@@ -207,7 +207,7 @@ NUMBERS OF OBJECTS AFTER TRANSFORMATION
 
 o Initial Correspondence Points:
 
-   Ports:        VDD VSS OUT IN RST OUT_N
+   Ports:        VDD VSS OUT IN OUT_N RST
 
 
 **************************************************************************************************************

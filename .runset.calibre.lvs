@@ -1,17 +1,17 @@
 *lvsRulesFile: ${KIT_HOME}/CarletonTech/calibreLVS.rul
 *lvsRulesFileLastLoad: 1632858601
 *lvsRunDir: /home/craigmcmahon/elec4609/cuSOI
-*lvsLayoutPaths: protection_nmos.calibre.db
-*lvsLayoutPrimary: protection_nmos
+*lvsLayoutPaths: TOP.calibre.db
+*lvsLayoutPrimary: TOP
 *lvsLayoutLibrary: CuSOI
 *lvsLayoutView: layout
 *lvsLayoutGetFromViewer: 1
-*lvsSourcePath: protection_nmos.src.net
-*lvsSourcePrimary: protection_nmos
+*lvsSourcePath: TOP.src.net
+*lvsSourcePrimary: TOP
 *lvsSourceLibrary: CuSOI
 *lvsSourceView: schematic
 *lvsSourceGetFromViewer: 1
-*lvsSpiceFile: protection_nmos.sp
+*lvsSpiceFile: TOP.sp
 *lvsPowerNames: VDD
 *lvsGroundNames: VSS GROUND
 *lvsReduceSemiSplitGates: 1
@@ -19,11 +19,11 @@
 *lvsReduceSplitGatesWithinTolerance: 1
 *lvsReduceSplitGatesMixTypes: 1
 *lvsReduceSeriesParallelSplitGates: 1
-*lvsERCDatabase: protection_nmos.erc.results
-*lvsERCSummaryFile: protection_nmos.erc.summary
+*lvsERCDatabase: TOP.erc.results
+*lvsERCSummaryFile: TOP.erc.summary
 *lvsERCCellName: 0
 *lvsLayoutPrecision: 2000
-*lvsReportFile: protection_nmos.lvs.report
+*lvsReportFile: TOP.lvs.report
 *lvsWriteMaskDB: 1
 *lvsReportOptions: N
 *cmnPrecision: 2000
@@ -32,5 +32,5 @@
 *cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
 *cmnFDILayoutLibrary: CuSOI
 *cmnFDILayoutView: layout
-*cmnFDIDEFLayoutPath: protection_nmos.def
+*cmnFDIDEFLayoutPath: TOP.def
 *cmnTraceProperties: {1 { MP "W" "W" 0 0}} {1 { MP "L" "L" 0 0}} {1 { MN "W" "W" 0 0}} {1 { MN "L" "L" 0 0}}

@@ -3,7 +3,7 @@
 ==================================================================================
 === CALIBRE::DRC-H SUMMARY REPORT
 ===
-Execution Date/Time:       Sun Oct  3 19:48:42 2021
+Execution Date/Time:       Tue Oct 12 14:58:04 2021
 Calibre Version:           v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
 Rule File Pathname:        /home/craigmcmahon/elec4609/cuSOI/_calibreDRC.rul_
 Rule File Title:           
@@ -30,12 +30,12 @@ Keep Empty Checks:         YES
 ----------------------------------------------------------------------------------
 --- ORIGINAL LAYER STATISTICS
 ---
-LAYER METAL ..... TOTAL Original Geometry Count = 17 (17)
+LAYER METAL ..... TOTAL Original Geometry Count = 14 (14)
 LAYER CONTACT ... TOTAL Original Geometry Count = 15 (15)
-LAYER DWELL ..... TOTAL Original Geometry Count = 4  (4)
+LAYER DWELL ..... TOTAL Original Geometry Count = 5  (5)
 LAYER POLY ...... TOTAL Original Geometry Count = 10 (10)
-LAYER Pplus ..... TOTAL Original Geometry Count = 1  (1)
-LAYER NWELL ..... TOTAL Original Geometry Count = 1  (1)
+LAYER Pplus ..... TOTAL Original Geometry Count = 2  (2)
+LAYER NWELL ..... TOTAL Original Geometry Count = 2  (2)
 LAYER Nplus ..... TOTAL Original Geometry Count = 0  (0)
 LAYER ART ....... TOTAL Original Geometry Count = 0  (0)
 ----------------------------------------------------------------------------------

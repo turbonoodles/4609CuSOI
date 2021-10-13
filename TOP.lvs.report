@@ -1,0 +1,288 @@
+
+LVS Netlist Compiler - Errors and Warnings for "/home/craigmcmahon/elec4609/cuSOI/TOP.src.net"
+----------------------------------------------------------------------------------------------
+
+Warning: Duplicate subckt definition "INVERTER" at line 98 in file "/home/craigmcmahon/elec4609/cuSOI/TOP.src.net"
+
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         TOP.lvs.report
+LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/TOP.sp ('TOP')
+SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/TOP.src.net ('TOP')
+RULE FILE:                /home/craigmcmahon/elec4609/cuSOI/_calibreLVS.rul_
+RULE FILE TITLE:          LVS Rule File for Carleton_SOI_PDK
+CREATION TIME:            Tue Oct 12 20:23:27 2021
+CURRENT DIRECTORY:        /home/craigmcmahon/elec4609/cuSOI
+USER NAME:                craigmcmahon
+CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of instances.
+  Error:    Layout names missing in source.
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  INCORRECT      TOP                           TOP
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   LVS COMPONENT TYPE PROPERTY            element
+   LVS COMPONENT SUBTYPE PROPERTY         model
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "VDD"
+   LVS GROUND NAME                        "VSS" "GROUND"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    ALL
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   NO
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       NO
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         YES
+   LVS SPICE PREFER PINS                  NO
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   LVS SPICE ALLOW INLINE PARAMETERS      YES
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            NO
+   LVS COMPARE CASE                       NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     50
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   // LVS FILTER UNUSED OPTION
+   LVS REPORT OPTION                      N
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+
+   // Map Device
+
+   LVS MAP DEVICE                      MN(NMOS) MN(NM) LAYOUT
+   LVS MAP DEVICE                      MP(PMOS) MP(PM) LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  YES
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mp  w w 0
+   TRACE PROPERTY  mp  l l 0
+   TRACE PROPERTY  mn  w w 0
+   TRACE PROPERTY  mn  l l 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                  #   #         #####################  
+                   # #          #                   #  
+                    #           #     INCORRECT     #  
+                   # #          #                   #  
+                  #   #         #####################  
+
+
+  Error:    Different numbers of instances (see below).
+  Error:    Layout names missing in source.
+
+LAYOUT CELL NAME:         TOP
+SOURCE CELL NAME:         TOP
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              7         7
+
+ Nets:              39        39
+
+ Instances:         42        44    *    MN (3 pins)
+                    52        52         MP (3 pins)
+                ------    ------
+ Total Inst:        94        96
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:              7         7
+
+ Nets:              35        35
+
+ Instances:         19        21    *    MN (3 pins)
+                    11        11         MP (3 pins)
+                    15        15         _invv (4 pins)
+                     2         2         _invx2v (4 pins)
+                     2         2         _nand2v (5 pins)
+                ------    ------
+ Total Inst:        49        51
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                                 INCORRECT OBJECTS
+**************************************************************************************************************
+
+
+LEGEND:
+-------
+
+  ne  = Naming Error (same layout name found in source
+        circuit, but object was matched otherwise).
+
+
+**************************************************************************************************************
+                                 INCORRECT INSTANCES
+
+DISC#  LAYOUT NAME                                               SOURCE NAME
+**************************************************************************************************************
+
+  1    ** missing instance **                                    XI3/MM0  MN(NM)
+
+--------------------------------------------------------------------------------------------------------------
+
+  2    ** missing instance **                                    XI2/MM0  MN(NM)
+
+
+
+**************************************************************************************************************
+                                      PORT NAME ERRORS
+
+DISC#   LAYOUT NAME                                              SOURCE NAME
+**************************************************************************************************************
+  3     PHI                                                      ** missing name **
+
+
+
+
+**************************************************************************************************************
+                                      NET NAME ERRORS
+
+DISC#   LAYOUT NAME                                              SOURCE NAME
+**************************************************************************************************************
+  4     PHI                                                      ** missing name **
+
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:               7          7            0            0
+
+   Nets:               35         35            0            0
+
+   Instances:          19         19            0            2    MN(NM)
+                       11         11            0            0    MP(PM)
+                       15         15            0            0    _invv
+                        2          2            0            0    _invx2v
+                        2          2            0            0    _nand2v
+                  -------    -------    ---------    ---------
+   Total Inst:         49         49            0            2
+
+
+o Statistics:
+
+   28 layout mos transistors were reduced to 10.
+     18 mos transistors were deleted by parallel reduction.
+   28 source mos transistors were reduced to 10.
+     18 mos transistors were deleted by parallel reduction.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD VSS RESET Q2 Q1 Q0
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  0 sec

@@ -16,7 +16,7 @@ LAYOUT NAME:              /home/craigmcmahon/elec4609/cuSOI/flipflop.sp ('flipfl
 SOURCE NAME:              /home/craigmcmahon/elec4609/cuSOI/flipflop.src.net ('flipflop')
 RULE FILE:                /home/craigmcmahon/elec4609/cuSOI/_calibreLVS.rul_
 RULE FILE TITLE:          LVS Rule File for Carleton_SOI_PDK
-CREATION TIME:            Sun Oct 10 20:41:37 2021
+CREATION TIME:            Tue Oct 12 09:36:49 2021
 CURRENT DIRECTORY:        /home/craigmcmahon/elec4609/cuSOI
 USER NAME:                craigmcmahon
 CALIBRE VERSION:          v2015.3_17.12    Wed Aug 5 13:26:19 PDT 2015
