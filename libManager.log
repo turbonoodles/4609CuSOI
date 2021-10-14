@@ -23,3 +23,348 @@
 \a cdsLibManager->libListBox->value = "CuFab"
 \a lmgrLogShowPopup("mainListPopup0" 34 6 2 "CuFab")
 \a cdsLibManager->libLineEdit->value = "CuFab"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "CuFab"
+\a lmgrLogShowPopup("mainListPopup0" 28 6 2 "CuFab")
+\a cdsLibManager->libLineEdit->value = "CuFab"
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(645 182 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(734 248 449 312))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "CuFab".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(818 296 281 131))
+\o Deleted library 'CuFab'.
+\o Delete of library "CuFab" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "TOP"
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\o MPS request: edit design
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "TOP"
+\a cdsLibManager->cellLineEdit->value = "TOP"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "TOP"
+\a cdsLibManager->cellLineEdit->value = "TOP"
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "TOP"
+\a cdsLibManager->cellLineEdit->value = "TOP"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->editLibraryPathButton->value = t
+\o Starting the cdsLibEditor...
+\o MPS request: update library list
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "TOP"
+\a cdsLibManager->cellLineEdit->value = "TOP"
+\a cdsLibManager->libListBox->value = "Drawing"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrListItemAction(cdsLibManager->libListBox "Drawing" 0)
+\a cdsLibManager->libLineEdit->value = "Drawing"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a nrResizeWindow(cdsLibManager list(1360 249 600 500))
+\a nrResizeWindow(cdsLibManager list(1240 228 600 500))
+\a cdsLibManager->cellLineEdit->value = "Drawing_3"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Drawing"
+\a cdsLibManager->libLineEdit->value = "Drawing"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 42 39 2 "Drawing_3")
+\a cdsLibManager->cellLineEdit->value = "Drawing_3"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 24 9 2 "Drawing_1")
+\a cdsLibManager->cellLineEdit->value = "Drawing_1"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CategoryCellsEdit->value = "*"
+\a basicCopyForm->CellsSkipLibraries->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->ViewsSkipLibraries->value = t
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromLibrary->value = "CuSOI"
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a basicCopyForm->CopyFromLibrary->value = "Drawing"
+\a basicCopyForm->CopyFromCell->value = "Drawing_1"
+\a basicCopyForm->CopyToLibrary->value = "Drawing"
+\a basicCopyForm->CopyToCell->value = "Drawing_1"
+\a basicCopyForm->CellsViewsToCopy->value = "layout"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(1318 211 444 638))
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a nrResizeWindow(basicCopyForm list(601 205 444 638))
+\a nrResizeWindow(basicCopyForm list(598 205 444 638))
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "CuSOI".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\o ERROR (CLM-173): One or more of the following problems have occurred:\n      1. The source file doesn't exist.\n      2. A destination file will be overwritten.\n      3. A destination file is checked out.\n      4. A destination file is opened for edit.\n      5. A destination file conflicts with another.\n      6. A source OpenAccess cellview master file has zero size.
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(0 0 288 131))
+\a nrResizeWindow(copyProblemsDialog list(408 299 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1396 380 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Drawing"
+\a cdsLibManager->libLineEdit->value = "Drawing"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->cellLineEdit->value = "Drawing_1"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Drawing_2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 42 15 2 "Drawing_2")
+\a cdsLibManager->cellLineEdit->value = "Drawing_2"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsViewsToCopy->value = ""
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromCell->value = ""
+\a basicCopyForm->CopyToCell->value = ""
+\a basicCopyForm->CopyFromLibrary->value = ""
+\a basicCopyForm->CopyToLibrary->value = ""
+\a basicCopyForm->CopyFromLibrary->value = "CuSOI"
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a basicCopyForm->CopyFromLibrary->value = "Drawing"
+\a basicCopyForm->CopyFromCell->value = "Drawing_2"
+\a basicCopyForm->CopyToLibrary->value = "Drawing"
+\a basicCopyForm->CopyToCell->value = "Drawing_2"
+\a basicCopyForm->CellsViewsToCopy->value = "layout"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(598 205 444 638))
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "CuSOI".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(0 0 288 131))
+\a nrResizeWindow(copyProblemsDialog list(408 299 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1396 380 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Drawing"
+\a cdsLibManager->libLineEdit->value = "Drawing"
+\a cdsLibManager->cellListBox->value = "Drawing_2"
+\a cdsLibManager->cellLineEdit->value = "Drawing_2"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 39 39 2 "Drawing_3")
+\a cdsLibManager->cellLineEdit->value = "Drawing_3"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsViewsToCopy->value = ""
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromCell->value = ""
+\a basicCopyForm->CopyToCell->value = ""
+\a basicCopyForm->CopyFromLibrary->value = ""
+\a basicCopyForm->CopyToLibrary->value = ""
+\a basicCopyForm->CopyFromLibrary->value = "CuSOI"
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a basicCopyForm->CopyFromLibrary->value = "Drawing"
+\a basicCopyForm->CopyFromCell->value = "Drawing_3"
+\a basicCopyForm->CopyToLibrary->value = "Drawing"
+\a basicCopyForm->CopyToCell->value = "Drawing_3"
+\a basicCopyForm->CellsViewsToCopy->value = "layout"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(598 205 444 638))
+\a basicCopyForm->CopyToLibrary->value = "CuSOI"
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "CuSOI".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetWindowVisibility(copyProblemsDialog "show")
+\a nrSetCurrentWindow(copyProblemsDialog)
+\a nrResizeWindow(workingDialogForm list(0 0 288 131))
+\a nrResizeWindow(copyProblemsDialog list(408 299 825 441))
+\a copyProblemsDialog->OK->value = t
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1396 380 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Drawing"
+\a cdsLibManager->libLineEdit->value = "Drawing"
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->cellLineEdit->value = "Drawing_3"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "CuSOI CuSOiPDk_DEVICES US_8ths analogLib avTech basic cdsDefTechLib sample"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->cellLineEdit->value = "Drawing_3"
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->libLineEdit->value = "CuSOI"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_3"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellListBox->value = "Drawing_1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "layout"
+\a cdsLibManager->viewLineEdit->value = "layout"
+\a cdsLibManager->cellLineEdit->value = "Drawing_1"
