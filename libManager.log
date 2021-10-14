@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.6 - CAT33 11/05/2015 10:33 (sjfql586) $
 \o Sub version:		sub-version  s019 
-\o Arguments:		-unmapped -mpssession virtuoso97728 -mpshost linap-me5159-01.doe.carleton.ca 
+\o Arguments:		-unmapped -mpssession virtuoso11165 -mpshost linap-me5159-01.doe.carleton.ca 
 \o Working Directory:	linap-me5159-01.doe.carleton.ca:/home/craigmcmahon/elec4609/cuSOI
 \o 64-bit offsets
 \o Qt version: 		4.7.2
@@ -12,144 +12,14 @@
 \o MPS service: map window
 \a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
-\a nrResizeWindow(cdsLibManager list(783 267 600 500))
-\a cdsLibManager->libListBox->value = "CuSOI"
+\a nrResizeWindow(cdsLibManager list(658 144 600 500))
 \a cdsLibManager->libListBox->value = "CuFab"
 \a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellListBox->value = "Inverter"
-\a lmgrLogShowPopup("mainListPopup1" 34 57 2 "Inverter")
-\a cdsLibManager->cellLineEdit->value = "Inverter"
-\a cdsLibManager->editDeleteButton->value = t
-\a deleteForm->deleteBothRadioButton->value = t
-\a deleteForm->deleteFilterEdit->value = "*"
-\a deleteForm->notDeleteFilterEdit->value = "*"
-\a nrSetWindowVisibility(deleteForm "show")
-\a nrSetCurrentWindow(deleteForm)
-\a nrResizeWindow(deleteForm list(770 305 627 425))
-\a deleteForm->moveToDeleteButton->value = t
-\a deleteForm->OK->value = t
-\o QUESTION (CLM-199): The following 3 items are marked for deletion.  Are you sure?
-\a nrSetWindowVisibility(mcMBXDLG "show")
-\a nrSetCurrentWindow(mcMBXDLG)
-\a nrResizeWindow(mcMBXDLG list(902 371 362 312))
-\a mcMBXDLG->pushButton1->value = t
-\o Deleting 3 cells from library "CuFab".
-\a nrSetWindowVisibility(workingDialogForm "show")
-\o Deleting cell "Inverter".
-\a nrSetCurrentWindow(deleteForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(workingDialogForm)
-\o Deleted cell 'CuFab/Inverter'.
-\o Deleting cell "Nand".
-\o Deleted cell 'CuFab/Nand'.
-\o Deleting cell "Nand_flipped".
-\o Deleted cell 'CuFab/Nand_flipped'.
-\o Deletion of 3 cells done.
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(workingDialogForm list(1 29 281 131))
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuFab"
-\a cdsLibManager->libLineEdit->value = "CuFab"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a nrListItemAction(cdsLibManager->cellListBox 3 0)
-\o MPS request: edit design
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellLineEdit->value = "TOP"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellLineEdit->value = "TOP"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->libListBox->value = "CuSOI"
-\a cdsLibManager->libLineEdit->value = "CuSOI"
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->cellLineEdit->value = "TOP"
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "2phase_clock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "layout"
-\a cdsLibManager->viewLineEdit->value = "layout"
 \a cdsLibManager->cellLineEdit->value = "2phase_clock"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a lmgrLogShowPopup("mainListPopup2" 55 29 2 "schematic")
-\a cdsLibManager->FileOpenButton->value = t
-\o MPS request: edit design
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "TOP"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\a cdsLibManager->cellLineEdit->value = "TOP"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 3 0)
-\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "CuFab"
+\a lmgrLogShowPopup("mainListPopup0" 34 6 2 "CuFab")
+\a cdsLibManager->libLineEdit->value = "CuFab"
